@@ -16,3 +16,10 @@ steps to execute:
 2. go mod init clock
 3. go build
 4. go test -v -timeout 3h -coverprofile=cover.out && go tool cover -html=cover.out
+
+
+Note: 
+run the command below to get the coverage:
+go tool cover -html=cover.out 
+
+Please open the file : test_coverage.png  for coverage report.
