@@ -18,7 +18,7 @@ const (
 
 func main() {
 	// run for Three Hours[uncomment the below line to run the app]
-	// Clock(3 * time.Hour)
+	Clock(3 * time.Hour)
 }
 
 // Clock ...
